@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.hero-text {
+  max-width: 400px;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+/* About */
+.about {
+  background: white;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
